@@ -1,0 +1,57 @@
+#inner-content2 {
+    .left-blue {
+        &--left-column {
+            &__text {
+                padding-top: 15px;
+                color: $blue;
+                font-size: 19px;
+                line-height: 32px;
+                font-style: italic;
+                border-top: 3px $blue solid;
+            }
+        }
+        &--right-column {
+            &__question {
+                font-size: 19px;
+                line-height: 32px;
+                font-weight: bold;
+            }
+            &__text {
+                font-size: 16px;
+            }
+        } 
+        // additional classes for tricky layouts ;)
+        .blue-txt-position {
+            margin-top: 0;
+        }
+        .right-text-offset-modifier {
+            margin-top: 0;
+        }
+    }
+    @include desktop {
+        .left-blue {
+            &--left-column {
+                padding-right: 25px;
+            }
+            &--right-column {
+                padding-left: 25px;
+            }
+            .blue-txt-position {
+                margin-top: 0;
+            }
+            .right-text-offset-modifier {
+                margin-top: 0;
+            }
+        }
+    }
+    @include xl-desktop {
+        .left-blue {
+            .blue-txt-position {
+                margin-top: 0;
+            }
+            .right-text-offset-modifier {
+                margin-top: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-xs-12 headline">
+        {{#if data.title}}
+        <h3 class="headline__title">{{{data.title}}}</h3>
+        {{/if}}
+        
+        {{#if data.hr}}
+        <hr class="headline__grey-line"/>
+        {{/if}}
+        
+        {{#if data.subtitle}} 
+        {{#each data.subtitle}}
+        <p class="headline__subtitle">{{{text}}}</p>
+        {{/each}} 
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="row left-blue">
+    <div class="col-xs-12 col-md-4 left-blue--left-column  {{#if data.blue-text.top-offset-modifier-class}}{{data.blue-text.top-offset-modifier-class}}{{/if}}">
+        <p class="left-blue--left-column__text" style="margin-top: {{data.blue-text.top-offset}}px;">{{{data.blue-text.text}}}</p>
+    </div>
+    <div class="col-xs-12 col-md-8 left-blue--right-column {{#if data.right-text-offset-modifier}}{{data.right-text-offset-modifier}}{{/if}}">
+        {{#each data.right-text}}
+            {{#if h3}}
+             <h3 class="left-blue--right-column__question">{{{h3}}}</h3>
+            {{/if}}
+            <p class="left-blue--right-column__text">{{{p}}}</p>
+        {{/each}}
+    </div>
+</div>

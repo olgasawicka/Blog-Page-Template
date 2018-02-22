@@ -1,0 +1,53 @@
+#inner-content2 {
+    font-family: Verdana, sans-serif;
+    color: #000;
+    .no-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .img-wrapper {
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        &__plus-icon {
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border: 1px solid #fff;
+            border-radius: 100%;
+            padding: 2px 4px;
+            cursor: pointer;
+            pointer-events: none;
+        }
+    }
+    .img-responsive {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    a {
+        text-decoration: none;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        padding: 0;
+    }
+    h3 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        line-height: 32px;
+    }
+    p {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 32px;
+    }
+}

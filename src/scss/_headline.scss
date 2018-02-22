@@ -1,0 +1,44 @@
+#inner-content2 {
+    .headline {
+        width: 100%;
+        margin-bottom: 40px;
+        &__title {
+            font-size: 28px;
+            font-weight: bold;
+            line-height: 40px;
+            text-align: center;
+        }
+        &__subtitle {
+            opacity: 0.6;
+            font-size: 19px;
+            line-height: 28px;
+            font-style: italic;
+            text-align: center;
+        }
+        &__grey-line {
+            display: block;
+            height: 3px;
+            border-top: 3px solid #e1e1e1;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    @include tablet {
+        .headline {
+            padding-left: 50px;
+            padding-right: 50px;
+            &__title {
+                font-size: 34px;
+                line-height: 50px;
+            }
+            &__subtitle {
+                font-size: 21px;
+                line-height: 30px;
+            }
+            &__grey-line {
+                margin-top: 35px;
+                margin-bottom: 35px;
+            }
+        }
+    }
+}

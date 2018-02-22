@@ -1,0 +1,39 @@
+<div class="row gallery-wrapper">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 gallery-wrapper--left">
+                {{#if data.blue-text.text}}
+                <div class="gallery-wrapper--left--blue-text">
+                    <p class="gallery-wrapper--left--blue-text__text" style="margin-top: {{data.blue-text.top-offset}}px;">{{{data.blue-text.text}}}</p>
+                </div>
+                {{/if}} {{#if data.caption.text}}
+                <div class="gallery-wrapper--left--grey-text" style="padding-bottom: {{data.caption.padding-bottom}}px;">
+                    <p class="gallery-wrapper--left--grey-text__text">{{{data.caption.text}}}
+                        <span class="gallery-wrapper--left--grey-text__arrow-wrapper"><i class="fa {{data.caption.arrow}} gallery-wrapper--left--grey-text__arrow-wrapper__arrow"></i></span></p>
+                </div>
+                {{/if}}
+            </div>
+
+            <div class="col-xs-12 col-md-8 gallery-wrapper--right">
+                <div class="gallery-wrapper__gallery {{#if data.gallery.top-position-class}}{{data.gallery.top-position-class}}{{/if}}">
+                    <div class="col-xs-12 col-sm-6 no-padding">
+                        {{#each data.gallery.left-column}}
+                        <div class="gallery-wrapper--img-wrapper">
+                            <i class="fa fa-plus gallery-wrapper--img-wrapper__plus-icon" aria-hidden="true"></i>
+                            <a href="{{imgpop}}" class="" data-gallery><img src="{{imgsmall}}" alt="{{imgalt}}" class="gallery-wrapper--img-wrapper__img img-responsive"></a>
+                        </div>
+                        {{/each}}
+                    </div>
+                    <div class="col-xs-12 col-sm-6 no-padding">
+                        {{#each data.gallery.right-column}}
+                        <div class="gallery-wrapper--img-wrapper">
+                            <i class="fa fa-plus gallery-wrapper--img-wrapper__plus-icon" aria-hidden="true"></i>
+                            <a href="{{imgpop}}" class="" data-gallery><img src="{{imgsmall}}" alt="{{imgalt}}" class="gallery-wrapper--img-wrapper__img img-responsive"></a>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+.blueimp-gallery-controls>.prev,
+.blueimp-gallery-controls>.next {
+    border-radius: 0;
+    border: 1px solid #fff;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-shadow: none;
+    margin-top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 27px;
+    text-align: center;
+    @media (min-width: 768px) {
+        font-size: 40px;
+        line-height: 37px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.blueimp-gallery-controls>.prev {
+    left: 5px;
+    @media (min-width: 768px) {
+        left: 10px;
+    }
+}
+
+.blueimp-gallery-controls>.next {
+    right: 5px;
+    @media (min-width: 768px) {
+        right: 10px;
+    }
+}
+
+.blueimp-gallery-controls>.indicator {
+    display: none;
+}

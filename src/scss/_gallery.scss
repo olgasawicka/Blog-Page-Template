@@ -1,0 +1,112 @@
+    #inner-content2 {
+        .gallery-wrapper {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            &--left {
+                &--blue-text {
+                    &__text {
+                        padding-top: 15px;
+                        color: $blue;
+                        font-size: 19px;
+                        line-height: 32px;
+                        font-style: italic;
+                        border-top: 3px $blue solid;
+                    }
+                }
+                &--grey-text {
+                    text-align: right;
+                    display: block;
+                    &__text {
+                        color: #8d8d8d;
+                        font-size: 13px;
+                        line-height: 25px;
+                    }
+                    &__arrow-wrapper {
+                            display: block;
+                            margin-right: 10px;
+                        &__arrow {
+                            font-size: 14px;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+            &--img-wrapper {
+                position: relative;
+                &__plus-icon {
+                    font-size: 12px;
+                    color: #fff;
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    border: 1px solid #fff;
+                    border-radius: 100%;
+                    padding: 2px 4px;
+                    cursor: pointer;
+                    pointer-events: none;
+                }
+                &__img {
+                    margin: 0 auto;
+                    padding: 3px;
+                }
+            }
+            .top-position {
+                margin-top: 10px;
+            }
+        }
+        @media (max-width: 992px) {
+            .gallery-wrapper {
+                &--left {
+                    &--grey-text {
+                        padding-bottom: 0!important;
+                    }
+                }
+            }
+        }
+        @include desktop {
+            .gallery-wrapper {
+                &--left,
+                &--right {
+                    display: table-cell;
+                    vertical-align: bottom;
+                    float: none;
+                }
+                &--left {
+                    &--blue-text {
+                        position: absolute;
+                        top: 0;
+                        right: 25px;
+                        left: 15px;
+                        padding-bottom: 20px;
+                    }
+                    &--grey-text {
+                        &__text {
+                            padding-right: 20px;
+                            margin-right: 15px;
+                        }
+                        &__arrow-wrapper {
+                            display: inline-block;
+                            margin-right: -35px;
+                            margin-left: 15px;
+                            &__arrow {
+                                transform: rotate(-90deg);
+                            }
+                        }
+                    }
+                }
+                &--right {
+                    padding-left: 25px;
+                }
+                .top-position {
+                    margin-top: 0;
+                }
+            }
+        }
+        @include xl-desktop {
+            .gallery-wrapper {
+                .top-position {
+                    margin-top: 0;
+                }
+            }
+        }
+    }

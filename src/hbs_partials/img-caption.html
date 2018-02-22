@@ -1,0 +1,35 @@
+<div class="row img-caption">
+    <div class="col-xs-12">
+        <div class="col-xs-12 col-md-4 img-caption--left">
+            {{#if data.left-column.blue-text.text}}
+            <div class="img-caption--left--blue-text" style="padding-top: {{data.left-column.blue-text.top-offset}}px;">
+                <p class="img-caption--left--blue-text__text">{{{data.left-column.blue-text.text}}}</p>
+            </div>
+            {{/if}} {{#if data.left-column.caption.text}}
+            <div class="img-caption--left--grey-text">
+                <p class="img-caption--left--grey-text__text">{{{data.left-column.caption.text}}}
+                 <span class="img-caption--left--grey-text__arrow-wrapper"><i class="fa {{data.left-column.caption.arrow}} img-caption--left--grey-text__arrow-wrapper__arrow"></i></span></p>
+            </div>
+            {{/if}}
+        </div>
+
+
+        <div class="col-xs-12 col-md-8 img-caption--right {{#if data.right-column.top-offset-modifier-class}}{{data.right-column.top-offset-modifier-class}}{{/if}}">
+                {{#if data.right-column.img.full-width.imgsmall}}
+                <div class="no-padding img-caption--right__img-wrapper img-caption--right__img-wrapper--full-width">
+                    <i class="fa fa-plus img-caption--right__img-wrapper__plus-icon" aria-hidden="true"></i>
+                    <a href="{{data.right-column.img.full-width.imgpop}}" title="" data-gallery>
+                        <img class="img-responsive" src="{{data.right-column.img.full-width.imgsmall}}" alt="{{imgalt}}">
+                    </a>
+                </div>
+                {{/if}} {{#each data.right-column.img.half-width}} {{#if this.imgsmall}}
+                <div class="col-md-6 no-padding img-caption--right__img-wrapper img-caption--right__img-wrapper--half-width">
+                    <i class="fa fa-plus img-caption--right__img-wrapper__plus-icon" aria-hidden="true"></i>
+                    <a href="{{imgpop}}" title="" data-gallery>
+                        <img class="img-responsive" src="{{imgsmall}}" alt="{{imgalt}}">
+                    </a>
+                </div>
+                {{/if}} {{/each}}
+        </div>
+    </div>
+</div>

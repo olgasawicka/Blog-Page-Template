@@ -1,0 +1,9 @@
+<div class="row only-text">
+    <div class="col-md-8 col-md-offset-4 {{#if data.top-offset-modifier-class}}{{data.top-offset-modifier-class}}{{/if}}">
+        {{#each data.text}} {{#if h3}}
+        <h3 class="only-text__question">{{{h3}}}</h3>
+        {{/if}}
+        <p class="only-text__paragraph">{{{p}}}</p>
+        {{/each}}
+    </div>
+</div>

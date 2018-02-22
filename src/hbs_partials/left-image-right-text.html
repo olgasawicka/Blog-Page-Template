@@ -1,0 +1,32 @@
+<div class="row l-img-r-txt">
+    <div class="col-md-8 col-md-push-4 l-img-r-txt--right">
+        {{#each data.right-text}} {{#if h3}}
+        <h3 class="l-img-r-txt--right__question">{{{h3}}}</h3>
+        {{/if}}
+        <p class="l-img-r-txt--right__paragraph">{{{p}}}</p>
+        {{/each}}
+    </div>
+
+    <div class="col-xs-12 col-md-4 col-md-pull-8 l-img-r-txt--left">
+        {{#if data.img-left.caption.top.text}}
+        <div class="l-img-r-txt--left--caption-wrapper" style="padding-top: {{data.img-left.caption.top.padding-top}}px;">
+            <p class="l-img-r-txt--left--caption-wrapper__caption">{{{data.img-left.caption.top.text}}} </p>
+            <i class="fa fa-sort-down l-img-r-txt--left--caption-wrapper__arrow"></i>
+           
+        </div>
+        {{/if}}
+
+        <div class="img-wrapper">
+            <i class="fa fa-plus img-wrapper__plus-icon" aria-hidden="true"></i>
+            <a href="{{data.img-left.imgpop}}" title="" data-gallery><img class="img-responsive" src="{{data.img-left.imgsmall}}" alt="{{imgalt}}"></a>
+        </div>
+
+        {{#if data.img-left.caption.bottom.text}}
+        <div class="l-img-r-txt--left--caption-wrapper">
+                <i class="fa fa-sort-up l-img-r-txt--left--caption-wrapper__arrow"></i>
+            <p class="l-img-r-txt--left--caption-wrapper__caption">
+                {{{data.img-left.caption.bottom.text}}}</p>
+        </div>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="row l-img-r-img">
+    <div class="col-xs-12 col-md-8 col-md-push-4 l-img-r-img--right">
+        {{#if data.right-text}}
+        <div>
+            {{#each data.right-text}} {{#if h3}}
+            <h3 class="l-img-r-img__question">{{{h3}}}</h3>
+            {{/if}}
+            <p class="l-img-r-img__paragraph">{{{p}}}</p>
+            {{/each}}
+        </div>
+        {{/if}}
+        <div class="l-img-r-img--img-wrapper">
+            <i class="fa fa-plus l-img-r-img--img-wrapper__plus-icon" aria-hidden="true"></i>
+            <a href="{{data.img-right.imgpop}}" title="" data-gallery><img class="img-responsive" src="{{data.img-right.imgsmall}}" alt="{{imgalt}}"></a>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4 col-md-pull-8 l-img-r-img--left">
+        <div class="l-img-r-img--caption-wrapper" style="margin-top: {{data.img-left.top-offset}}px;">
+            <p class="l-img-r-img--caption-wrapper__caption">{{{data.img-left.caption.text}}}</p>
+            <i class="fa fa-sort-down l-img-r-img--caption-wrapper__arrow"></i>
+            
+        </div>
+        <div class="l-img-r-img--img-wrapper">
+            <i class="fa fa-plus l-img-r-img--img-wrapper__plus-icon" aria-hidden="true"></i>
+            <a href="{{data.img-left.imgpop}}" title="" data-gallery><img class="img-responsive" src="{{data.img-left.imgsmall}}" alt="{{imgalt}}"></a>
+        </div>
+    </div>
+</div>

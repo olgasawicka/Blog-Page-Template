@@ -1,0 +1,365 @@
+{
+    "content": [{
+        "index": 10,
+        "partial": "hero",
+        "data": {
+            "full": {
+                "bg-image": "img/hero-img-full.jpg",
+                "title": "Lorem ipsum dolor sit&nbsp;amet",
+                "subtitle": "Donec rutrum congue leo eget malesuada",
+                "description": null
+            },
+            "left": {
+                "bg-image": null,
+                "title": "Lorem ipsum dolor sit&nbsp;amet",
+                "subtitle": "Donec rutrum congue leo eget malesuada",
+                "description": null
+            },
+            "right": {
+                "bg-image": null,
+                "title": null,
+                "subtitle": null,
+                "description": "Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat."
+            }
+        }
+    }, {
+        "index": 20,
+        "partial": "headline",
+        "data": {
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing velit nisi elementum id enim?",
+            "subtitle": [{
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Destibulum ante ipsum primis in faucibus orci luctus et ultrices pos."
+            }],
+            "hr": true
+        }
+    }, {
+        "index": 24,
+        "partial": "only-text",
+        "data": {
+            "top-offset-modifier-class": "top-offset",
+            "text": [{
+                "p": "<strong>Curabitur</strong> non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit."
+            }, {
+                "h3": "Vivamus suscipit tortor eget felis porttitor volutpat.",
+                "p": "<strong>Praesent</strong> sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Destibulum ante ipsum primis in faucibus orci luctus et ultrices pos."
+            }]
+        }
+    }, {
+        "index": 25,
+        "partial": "gallery",
+        "data": {
+            "blue-text": {
+                "top-offset": 0,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "caption": {
+                "padding-bottom": 0,
+                "text": "Destibulum ante ipsum primis in faucibus orci luctus et ultrices pos.",
+                "arrow": "fa-sort-down"
+            },
+            "gallery": {
+                "top-position-class": "top-position",
+                "left-column": [{
+                    "imgsmall": "img/gallery/img-1.jpg",
+                    "imgpop": "img/gallery/img-1-pop.jpg",
+                    "imgalt": null
+                }, {
+                    "imgsmall": "img/gallery/img-2.jpg",
+                    "imgpop": "img/gallery/img-2-pop.jpg",
+                    "imgalt": null
+                }],
+                "right-column": [{
+                    "imgsmall": "img/gallery/img-3.jpg",
+                    "imgpop": "img/gallery/img-3-pop.jpg",
+                    "imgalt": null
+                }, {
+                    "imgsmall": "img/gallery/img-4.jpg",
+                    "imgpop": "img/gallery/img-4-pop.jpg",
+                    "imgalt": null
+                }, {
+                    "imgsmall": "img/gallery/img-5.jpg",
+                    "imgpop": "img/gallery/img-5-pop.jpg",
+                    "imgalt": null
+                }]
+            }
+        }
+    }, {
+        "index": 26,
+        "partial": "only-text",
+        "data": {
+            "top-offset-modifier-class": "top-offset",
+            "text": [{
+                "p": "<strong>Vestibulum</strong> ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
+            }, {
+                "h3": "Quisque velit nisi, pretium ut lacinia in, elementum id enim",
+                "p": "<strong>Mauris</strong> blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feugiat."
+            }]
+        }
+    }, {
+        "index": 30,
+        "partial": "left-blue-right-text",
+        "data": {
+            "blue-text": {
+                "top-offset": 40,
+                "top-offset-modifier-class": "blue-txt-position",
+                "text": "Donec sollicitudin molestie malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat."
+            },
+            "right-text-offset-modifier": "right-text-offset-modifier",
+            "right-text": [{
+                    "h3": "Donec sollicitudin molestie malesuada. Quisque velit nisi, pretium ut lacinia in.",
+                    "p": "<strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt."
+                },
+                {
+                    "p": "<strong>Vivamus</strong> suscipit tortor eget felis porttitor volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
+                }
+            ]
+        }
+    }, {
+        "index": 36,
+        "partial": "only-text",
+        "data": {
+            "top-offset-modifier-class": null,
+            "text": [{
+                "h3": "Nulla porttitor accumsan tincidunt.",
+                "p": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Donec sollicitudin faucibus orci luctus et ultrices molestie malesuada."
+            }]
+        }
+    }, {
+        "index": 40,
+        "partial": "img-caption",
+        "data": {
+            "left-column": {
+                "top-offset-modifier-class": null,
+                "blue-text": {
+                    "top-offset": 30,
+                    "position": "top",
+                    "text": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus."
+                },
+                "caption": {
+                    "position": "bottom",
+                    "text": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Proin eget tortor risus.",
+                    "arrow": "fa-sort-down"
+                }
+            },
+            "right-column": {
+                "top-offset-modifier-class": "top-position",
+                "img": {
+                    "full-width": {
+                        "imgsmall": "img/photo-1.jpg",
+                        "imgpop": "img/photo-1-pop.jpg",
+                        "imgalt": null
+                    },
+                    "half-width": [{
+                        "imgsmall": null,
+                        "imgpop": null,
+                        "imgalt": null
+                    }, {
+                        "imgsmall": null,
+                        "imgpop": null,
+                        "imgalt": null
+                    }]
+                }
+            }
+        }
+    }, {
+        "index": 45,
+        "partial": "only-text",
+        "data": {
+            "top-offset-modifier-class": "top-offset",
+            "text": [{
+                "h3": "Accumsan id imperdiet et porttitor at sem.",
+                "p": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
+            }]
+        }
+    }, {
+        "index": 48,
+        "partial": "left-blue-right-text",
+        "data": {
+            "blue-text": {
+                "top-offset": 40,
+                "top-offset-modifier-class": "blue-txt-position",
+                "text": "Donec sollicitudin molestie malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat."
+            },
+            "right-text-offset-modifier": "right-text-offset-modifier",
+            "right-text": [
+                {
+                    "p": "Proin eget tortor risus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
+                }, {
+                    "p": "Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula."
+                }
+            ]
+        }
+    },  {
+        "index": 49,
+        "partial": "gallery",
+        "data": {
+            "blue-text": {
+                "top-offset": 0,
+                "text": null
+            },
+            "caption": {
+                "padding-bottom": 0,
+                "text": null,
+                "arrow": "fa-sort-down"
+            },
+            "gallery": {
+                "top-position-class": "top-position",
+                "left-column": [{
+                    "imgsmall": "img/gallery/img-6.jpg",
+                    "imgpop": "img/gallery/img-6-pop.jpg",
+                    "imgalt": null
+                }, {
+                    "imgsmall": "img/gallery/img-7.jpg",
+                    "imgpop": "img/gallery/img-7-pop.jpg",
+                    "imgalt": null
+                }],
+                "right-column": [{
+                    "imgsmall": "img/gallery/img-8.jpg",
+                    "imgpop": "img/gallery/img-8-pop.jpg",
+                    "imgalt": null
+                }, {
+                    "imgsmall": "img/gallery/img-9.jpg",
+                    "imgpop": "img/gallery/img-9-pop.jpg",
+                    "imgalt": null
+                }]
+            }
+        }
+    }, {
+        "index": 50,
+        "partial": "left-blue-right-text",
+        "data": {
+            "blue-text": {
+                "top-offset": 40,
+                "top-offset-modifier-class": "blue-txt-position",
+                "text": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat."
+            },
+            "right-text-offset-modifier": "right-text-offset-modifier",
+            "right-text": [
+                {
+                    "h3": "<strong>Suscipit</strong> tortor eget felis porttitor volutpat.",
+                    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit."
+                }, {
+                    "p": "Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula."
+                },{
+                    "p": "Lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat.Sed porttitor lectus nibh. Consectetur adipiscing elit. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam."
+                }
+            ]
+        }
+    }, {
+        "index": 60,
+        "partial": "img-caption",
+        "data": {
+            "left-column": {
+                "top-offset-modifier-class": null,
+                "blue-text": {
+                    "top-offset": 30,
+                    "position": "top",
+                    "text": null
+                },
+                "caption": {
+                    "position": "bottom",
+                    "text": "Non nulla sit amet nisl tempus convallis quis ac lectus ligula sed magna dictum porta.",
+                    "arrow": "fa-sort-down"
+                }
+            },
+            "right-column": {
+                "top-offset-modifier-class": "top-position",
+                "img": {
+                    "full-width": {
+                        "imgsmall": null,
+                        "imgpop": null,
+                        "imgalt": null
+                    },
+                    "half-width": [{
+                        "imgsmall": "img/photo-2.jpg",
+                        "imgpop": "img/photo-2-pop.jpg",
+                        "imgalt": null
+                    }, {
+                        "imgsmall": "img/photo-3.jpg",
+                        "imgpop": "img/photo-3-pop.jpg",
+                        "imgalt": null
+                    }]
+                }
+            }
+        }
+    },{
+        "index": 27,
+        "partial": "carousel",
+        "data": {
+            "items": [{
+                "imgsmall": "img/carousel/carousel-1.jpg",
+                "imgpop": "img/carousel/carousel-1-pop.jpg",
+                "imgalt": null
+            }, {
+                "imgsmall": "img/carousel/carousel-2.jpg",
+                "imgpop": "img/carousel/carousel-2-pop.jpg",
+                "imgalt": null
+            }, {
+                "imgsmall": "img/carousel/carousel-3.jpg",
+                "imgpop": "img/carousel/carousel-3-pop.jpg",
+                "imgalt": null
+            }, {
+                "imgsmall": "img/carousel/carousel-4.jpg",
+                "imgpop": "img/carousel/carousel-4-pop.jpg",
+                "imgalt": null
+            }]
+        }
+    }, {
+        "index": 65,
+        "partial": "only-text",
+        "data": {
+            "top-offset-modifier-class": "top-offset",
+            "text": [{
+                "h3": "Accumsan id imperdiet et porttitor at sem.",
+                "p": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
+            }]
+        }
+    }, 
+    {
+        "index": 70,
+        "partial": "left-image-right-text",
+        "data": {
+            "img-left": {
+                "top-offset": 40,
+                "imgsmall": "img/photo-5.jpg",
+                "imgpop": "img/photo-5-pop.jpg",
+                "imgalt": null,
+                "caption": {
+                    "top": {
+                        "padding-top": 0,
+                        "text": null
+                    },
+                    "bottom": {
+                        "padding-top": 0,
+                        "text": "Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus."
+                    }
+                }
+            },
+            "right-text": [{
+                "p": "Faucibus orci luctus et ultrices posuere cubilia Curae. Ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. "
+            },{
+                "p": "Ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit tortor eget felis porttitor volutpat."
+            }, {
+                "p": "<strong> Ac diam sit amet quam vehicula</strong> elementum sed sit amet dui. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus."
+            }]
+        }
+    }, {
+        "index": 300,
+        "partial": "social-icons",
+        "data": {
+            "social-icons": [{
+                "icon": "facebook",
+                "url": ""
+            }, {
+                "icon": "twitter",
+                "url": ""
+            }, {
+                "icon": "pinterest-p",
+                "url": ""
+            },{
+                "icon": "google",
+                "url": ""
+            }]
+        }
+    }]
+}

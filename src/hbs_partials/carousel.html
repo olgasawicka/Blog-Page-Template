@@ -1,0 +1,12 @@
+<div class="row">
+    <div class='col-xs-12'>
+        <div class="owl-carousel owl-theme carousel">
+            {{#each data.items}}
+            <div class="carousel--img-wrapper">
+                <i class="fa fa-plus carousel--img-wrapper__plus-icon" aria-hidden="true"></i>
+                <a href="{{imgpop}}" title="" data-gallery><img class="img-responsive" src="{{imgsmall}}" alt="{{imgalt}}" /></a>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
