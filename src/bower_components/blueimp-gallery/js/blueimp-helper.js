@@ -9,22 +9,36 @@
  * https://opensource.org/licenses/MIT
  */
 
-/* global define, window, document */
+/* global define */
+
+/* eslint-disable no-param-reassign */
 
 ;(function () {
   'use strict'
 
-  function extend (obj1, obj2) {
+  /**
+   * Object.assign polyfill
+   *
+   * @param {object} obj1 First object
+   * @param {object} obj2 Second object
+   * @returns {object} Merged object
+   */
+  function extend(obj1, obj2) {
     var prop
     for (prop in obj2) {
-      if (obj2.hasOwnProperty(prop)) {
+      if (Object.prototype.hasOwnProperty.call(obj2, prop)) {
         obj1[prop] = obj2[prop]
       }
     }
     return obj1
   }
-
-  function Helper (query) {
+  /**
+   * Helper constructor
+   *
+   * @class
+   * @param {*} query jQuery type query argument
+   */
+  function Helper(query) {
     if (!this || this.find !== Helper.prototype.find) {
       // Called as function instead of as constructor,
       // so we simply return a new instance:
@@ -86,8 +100,9 @@
       if (!this[0]) {
         return false
       }
-      return new RegExp('(^|\\s+)' + className +
-        '(\\s+|$)').test(this[0].className)
+      return new RegExp('(^|\\s+)' + className + '(\\s+|$)').test(
+        this[0].className
+      )
     },
 
     addClass: function (className) {
@@ -176,7 +191,6 @@
     first: function () {
       return new Helper(this[0])
     }
-
   })
 
   if (typeof define === 'function' && define.amd) {
@@ -187,4 +201,4 @@
     window.blueimp = window.blueimp || {}
     window.blueimp.helper = Helper
   }
-}())
+})()

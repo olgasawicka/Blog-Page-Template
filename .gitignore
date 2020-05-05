@@ -5,3 +5,7 @@ dev
 .tscache
 .baseDir*
 .vscode
+.DS_Store
+package-lock.json
+src/bower_components/
+thumbs.db

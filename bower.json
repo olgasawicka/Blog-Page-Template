@@ -1,27 +1,22 @@
 {
   "name": "blog-page-template",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components"
-  ],
+  "ignore": ["**/.*", "node_modules", "bower_components"],
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
     "font-awesome": "fontawesome#^4.7.0",
-    "owl.carousel": "^2.2.1",
+    "owl.carousel": "^2.3.4",
     "blueimp-gallery": "^2.25.2"
   },
   "overrides": {
+    "owl.carousel": {
+      "main": ["dist/assets/owl.carousel.min.css", "dist/owl.carousel.min.js"]
+    },
     "bootstrap": {
-      "main": [
-        "dist/css/bootstrap.css"
-      ]
+      "main": ["dist/css/bootstrap.css"]
     },
     "font-awesome": {
-      "main": [
-        "css/font-awesome.min.css"
-      ]
+      "main": ["css/font-awesome.min.css"]
     },
     "blueimp-gallery": {
       "main": [

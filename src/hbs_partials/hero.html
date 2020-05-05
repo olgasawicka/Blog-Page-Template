@@ -1,52 +1,53 @@
 <div class="row hero">
-    <div class="col-xs-12">
-        {{#if data.full.bg-image}}
-        <div class="hero--full clearfix" style="background-image: url({{data.full.bg-image}});">
-            {{#if data.full.title}}
-            <div class="hero__box-text hero__box-text--wider">
-                <h2 class="hero__box-text__title">{{{data.full.title}}}</h2>
-                {{#if data.full.subtitle}}
-                <p class="hero__box-text__subtitle">{{{data.full.subtitle}}}</p>
-                {{/if}}
-            </div>
-            {{/if}} 
-            {{#if data.full.description}}
-            <p class="hero__descr">{{{data.full.description}}}</p>
-            {{/if}}
-        </div>
+  <div class="col-xs-12">
+    {{#if data.full.bg-image}}
+    <div
+      class="hero--full clearfix"
+      style="background-image: url({{data.full.bg-image}});"
+    >
+      {{#if data.full.title}}
+      <div class="hero__box-text hero__box-text--wider">
+        <h2 class="hero__box-text__title">{{{data.full.title}}}</h2>
+        {{#if data.full.subtitle}}
+        <p class="hero__box-text__subtitle">{{{data.full.subtitle}}}</p>
         {{/if}}
-
-        {{#if data.left.bg-image}}
-        <div class="hero--left clearfix" style="background-image: url({{data.left.bg-image}});">
-            {{#if data.left.title}}
-            <div class="hero__box-text">
-                <h2 class="hero__box-text__title">{{{data.left.title}}}</h2>
-                {{#if data.left.subtitle}}
-                <p class="hero__box-text__subtitle">{{{data.left.subtitle}}}</p>
-                {{/if}}
-            </div>
-            {{/if}} 
-            {{#if data.left.description}}
-            <p class="hero__descr">{{{data.left.description}}}</p>
-            {{/if}}
-        </div>
-        {{/if}}
-
-        {{#if data.right.bg-image}}
-        <div class="hero--right clearfix" style="background-image: url({{data.right.bg-image}});">
-            {{#if data.right.title}}
-            <div class="hero__box-text">
-                <h2 class="hero__box-text__title">{{{data.right.title}}}</h2>
-                {{#if data.right.subtitle}}
-                <p class="hero__box-text__subtitle">{{{data.right.subtitle}}}</p>
-                {{/if}}
-            </div>
-            {{/if}} 
-            {{#if data.right.description}}
-            <p class="hero__descr">{{{data.right.description}}}</p>
-            {{/if}}
-        </div>
-        {{/if}}
-
+      </div>
+      {{/if}} {{#if data.full.description}}
+      <p class="hero__descr">{{{data.full.description}}}</p>
+      {{/if}}
     </div>
+    {{/if}} {{#if data.left.bg-image}}
+    <div
+      class="hero--left clearfix"
+      style="background-image: url({{data.left.bg-image}});"
+    >
+      {{#if data.left.title}}
+      <div class="hero__box-text">
+        <h2 class="hero__box-text__title">{{{data.left.title}}}</h2>
+        {{#if data.left.subtitle}}
+        <p class="hero__box-text__subtitle">{{{data.left.subtitle}}}</p>
+        {{/if}}
+      </div>
+      {{/if}} {{#if data.left.description}}
+      <p class="hero__descr">{{{data.left.description}}}</p>
+      {{/if}}
+    </div>
+    {{/if}} {{#if data.right.bg-image}}
+    <div
+      class="hero--right clearfix"
+      style="background-image: url({{data.right.bg-image}});"
+    >
+      {{#if data.right.title}}
+      <div class="hero__box-text">
+        <h2 class="hero__box-text__title">{{{data.right.title}}}</h2>
+        {{#if data.right.subtitle}}
+        <p class="hero__box-text__subtitle">{{{data.right.subtitle}}}</p>
+        {{/if}}
+      </div>
+      {{/if}} {{#if data.right.description}}
+      <p class="hero__descr">{{{data.right.description}}}</p>
+      {{/if}}
+    </div>
+    {{/if}}
+  </div>
 </div>
